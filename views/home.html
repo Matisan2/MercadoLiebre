@@ -13,12 +13,10 @@
 
 <body>
     <header class="main-header">
-        <div class="barraMadre">
-            <div class="main-header-top-bar">
-                <img class="logo" src="/img/logo-mercado-liebre.svg">
-                <div class="barra-busqueda"><input id="barra" type="search" placeholder="Buscar productos, marcas">
-                    <button><i class="fas fa-search"></i></button>
-                </div>
+        <div class="main-header-top-bar">
+            <img class="logo" src="/img/logo-mercado-liebre.svg">
+            <div class="barra-busqueda"><input id="barra" type="search" placeholder="Buscar productos, marcas">
+                <button><i class="fas fa-search"></i></button>
             </div>
             <h2 class="copy-header"> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito
             </h2>
@@ -32,16 +30,17 @@
             </ul>
 
             <ul class="right-navbar">
-                <li><a href="#">Crea tu cuenta <i class="far fa-id-card"></i></a></li>
-                <li><a href="#">Ingresa <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="/register">Crea tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresa <i class="fas fa-sign-in-alt"></i></a></li>
                 <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a> </li>
             </ul>
         </nav>
         <a href="#" class="hamburguer-button"> <i class="fas fa-bars"></i> </a>
     </header>
-
-    <main>
+    <div>
         <img src="/img/img-home-banner.jpg" class="imagenes">
+    </div>
+    <main>
         <h2 class="titulares"> Basado en tu última visita </h2>
         <div class="totalProductos">
             <div class="main-section-article">
@@ -113,26 +112,54 @@
                     </ul>
                 </div>
             </div>
+            <div class="main-section-article">
+                <img class="imagenes" src="/img/img-cafetera-moulinex.jpg" alt="">
+                <div class="caja-general">
+                    <i class="fas fa-truck"></i>
+                    <ul type="none">
+                        <li class="precio"> $ 6770 </li>
+                        <li class="desc"> 40 % Off </li>
+                        <li class="descripcion"> Cafetera Moulinex </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-section-article">
+                <img class="imagenes" src="/img/img-macbook-pro-2019.jpg" alt="">
+                <div class="caja-general">
+                    <i class="fas fa-truck"></i>
+                    <ul type="none">
+                        <li class="precio"> $ 230.000 </li>
+                        <li class="desc"> 20 % Off </li>
+                        <li class="descripcion"> McBook Pro 2019 </li>
+                    </ul>
+                </div>
+            </div>
+           
         </div>
     </main>
     <footer>
-        <div class="main-footer"> <i class="fas fa-credit-card"></i>
-            <h2> Pagá con tarjeta o efectivo </h2>
-            <p> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y
-                siempre es
-                seguro! </p>
-
-            <i class="fas fa-gift"></i>
-            <h2> Envío gratis desde $ 2.500 </h2>
-            <p> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un
-                beneficio de
-                Mercado Puntos. </p>
-
-            <i class="fas fa-user-shield"></i>
-            <h2> Seguridad, de principio a fin </h2>
-            <p> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás
-                siempre
-                protegid@. </p>
+        <div class="main-footer">
+            <div class="seccion-footer">
+                <i class="fas fa-credit-card"></i>
+                <h2> Pagá con tarjeta o efectivo </h2>
+                <p> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y
+                    siempre es
+                    seguro! </p>
+            </div>
+            <div class="seccion-footer">
+                <i class="fas fa-gift"></i>
+                <h2> Envío gratis desde $ 2.500 </h2>
+                <p> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un
+                    beneficio de
+                    Mercado Puntos. </p>
+            </div>
+            <div class="seccion-footer">
+                <i class="fas fa-user-shield"></i>
+                <h2> Seguridad, de principio a fin </h2>
+                <p> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás
+                    siempre
+                    protegid@. </p>
+            </div>
         </div>
 
         <p class="copyright"> Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
