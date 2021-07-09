@@ -79,7 +79,10 @@ main {
 }  
 .titulares{
     font-size: 24px;
-    padding: 15px 10px;
+    padding: 15px 20px;
+}
+.totalProductos{
+    padding: 10px;
 }
 .main-section-article{
     max-width: 360px;
@@ -87,6 +90,14 @@ main {
 }
 .imagenes{
     max-width: 100%;
+}
+.caja-general{
+    background-color: #FFF;
+    border-top: solid 1px #ebebeb;
+    text-align: left;
+    padding: 15px;
+    position: relative;
+    margin-top: -3px;
 }
 .precio{
     font-size: 18px;
@@ -116,16 +127,8 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
-.caja-general{
-    background-color: #FFF;
-    border-top: solid 1px #ebebeb;
-    text-align: left;
-    padding: 15px;
-    position: relative;
-    margin-top: -3px;
-    }
 .descripcion {
-    display: none;
+    visibility: hidden;
     padding: 10px 0px;
 }
 footer {
@@ -139,8 +142,10 @@ footer {
 .main-footer i {
     color: #1259c3;
     font-size: 2em;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 10px;
+}
+.seccion-footer p, h2{
+    font-size: 12px;
 }
 .copyright{
     color: #666;
@@ -250,7 +255,7 @@ footer {
         justify-content: start;
     }
     .main-section-article:hover .caja-general .descripcion{
-        display: inline;
+        visibility: visible;
     }
     .main-navbar{
         display: flex;
@@ -313,7 +318,7 @@ footer {
         justify-content: start;
     }
     .main-section-article:hover .caja-general .descripcion{
-        display: inline;
+        visibility: visible;
     }
     .main-navbar{
         display: flex;
